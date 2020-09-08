@@ -1,0 +1,37 @@
+#navbar {
+    height: 70px;
+    padding: 0rem 0rem;
+    z-index: 999;
+    background: #fff;
+  
+    // Inherit theme colors
+    .nav-logo { 
+        color: inherit !important; 
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .nav-item { 
+        color: inherit !important; 
+        font-size: 18px;
+
+        a:hover { border-bottom: 1px solid; }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .active { 
+            color: inherit;
+            border-bottom: 1px solid;
+            text-decoration: none;
+        }
+    }
+
+    .github-logo {
+        width: 24px; 
+        height: 24px;
+    }
+}
